@@ -18,12 +18,13 @@
   "homepage": "https://github.com/jesjack/practica_viernes#readme",
   "devDependencies": {
     "@types/ejs": "^3.1.0",
+    "@types/electron": "^1.6.10",
     "@types/html-pdf": "^2.2.1",
     "@types/node": "^16.10.9"
   },
   "dependencies": {
     "ejs": "^3.1.6",
-    "html-pdf": "^3.0.1",
-    "html-pdf-node": "^1.0.7"
+    "electron": "^15.1.2",
+    "html-pdf": "^3.0.1"
   }
 }
