@@ -10,12 +10,12 @@ var fs_1 = require("fs");
 var mathFunction;
 var rows = [];
 function render() {
-    html_pdf_1.default.create(ejs_1.default.render((0, fs_1.readFileSync)('src/table.ejs').toString(), {
+    html_pdf_1.default.create(ejs_1.default.render((0, fs_1.readFileSync)(__dirname + '/src/table.ejs').toString(), {
         mathFunction: mathFunction,
         rows: rows
     }), {
         format: 'A5'
-    }).toFile('output.pdf', function (err) {
+    }).toFile(__dirname + '/output.pdf', function (err) {
         if (err)
             console.error(err);
     });
