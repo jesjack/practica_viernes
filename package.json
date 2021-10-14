@@ -2,9 +2,9 @@
   "name": "practica_viernes",
   "version": "0.0.1",
   "description": "Práctica para los viernes.",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
-    "test": "node index.test.js"
+    "test": "node ./bin/index.test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/jesjack/practica_viernes/issues"
   },
-  "homepage": "https://github.com/jesjack/practica_viernes#readme"
+  "homepage": "https://github.com/jesjack/practica_viernes#readme",
+  "devDependencies": {
+    "@types/ejs": "^3.1.0",
+    "@types/html-pdf": "^2.2.1",
+    "@types/node": "^16.10.9"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "html-pdf": "^3.0.1",
+    "html-pdf-node": "^1.0.7"
+  }
 }
