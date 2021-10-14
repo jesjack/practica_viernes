@@ -1,0 +1,19 @@
+{
+  "name": "practica_viernes",
+  "version": "0.0.1",
+  "description": "Práctica para los viernes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesjack/practica_viernes.git"
+  },
+  "author": "Edgar Jesús Moreno Castañeda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jesjack/practica_viernes/issues"
+  },
+  "homepage": "https://github.com/jesjack/practica_viernes#readme"
+}
