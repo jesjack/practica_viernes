@@ -1,6 +1,6 @@
 {
   "name": "practica_viernes",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Práctica para los viernes.",
   "main": "./bin/index.js",
   "scripts": {
