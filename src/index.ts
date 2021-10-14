@@ -7,11 +7,11 @@ var mathFunction: string
 var rows: Array<[x: string | number, f: string | number]> = []
 
 export function render() {
-  html_to_pdf.create(ejs.render(readFileSync(join(__dirname + '/src/table.ejs')).toString(), {
+  html_to_pdf.create(ejs.render(readFileSync(join(__dirname + '..' + '/src/table.ejs')).toString(), {
     mathFunction, rows
   }), {
     format: 'A5'
-  }).toFile(join(__dirname + '/output.pdf'), (err) => {
+  }).toFile(join('output.pdf'), (err) => {
     if(err) console.error(err)
   })
 }
